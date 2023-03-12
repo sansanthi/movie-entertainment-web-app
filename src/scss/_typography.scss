@@ -1,0 +1,37 @@
+@use './variables' as var;
+
+body {
+    font-size: 0.938rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var.$font-family;
+    font-weight: 400;
+    color: #fff;
+}
+
+h1 {
+    font-size: 1.25rem;
+}
+
+h2 {
+    font-size: 0.938rem;
+}
+
+
+
+@media screen and (min-width: 48rem) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+}
